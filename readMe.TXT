@@ -48,7 +48,7 @@ Feel free to reach out to me if you have any questions, inquiries, or just want 
 ## Installation
 
 1. Clone this repository: `git clone https://github.com/KarinGanon/Project.git`
-2. Navigate to the project directory: `cd your-portfolio`
+2. Navigate to the project directory: 'pnpm dev' to run the local host of vite. 
 
 ## Usage
 
