@@ -1,0 +1,44 @@
+:root {
+  --color-Early-Dawn: #fff8e6;
+  --color-Mandalay: #b28b1a;
+  --color-Sisal: #d1c9bc;
+  --color-Indian-Khaki: #bdad8f;
+
+  --color-Mine-Shaft: #212121;
+  --color-Boulder: #757575;
+  --color-White: #ffffff;
+}
+
+.pageColor {
+  background-color: var(--color-Indian-Khaki);
+}
+
+.boxColor {
+  background-color: var(--color-Sisal);
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleColor {
+  color: var(--color-White);
+}
+
+.container_images {
+  max-width: 32.5rem;
+  max-height: 32.5rem;
+  box-shadow: 0 4px 12px var(--color-Mine-Shaft);
+  border-radius: 5rem;
+}
+
+.container_images .image {
+  border-radius: 1rem;
+  outline: 5px solid whitesmoke;
+  height: 100%;
+  width: 100%;
+}

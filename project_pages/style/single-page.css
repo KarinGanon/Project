@@ -1,0 +1,173 @@
+@import url("../../style/style.css");
+:root {
+  --color-Mercury: #e6e6e6;
+  --color-Sisal: #d1c9bc;
+  --color-Azalea: #f8d3df;
+}
+
+@media (min-width: 961px) {
+  .container {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.gradientCalculator {
+  background-image: linear-gradient(
+    to left bottom,
+    #c5c5c5,
+    #b7c5d7,
+    #90cae0,
+    #65d0d1,
+    #65d2a8,
+    #5ecba1,
+    #56c49b,
+    #4fbd94,
+    #3bacad,
+    #5d97ac,
+    #768394,
+    #757575
+  );
+}
+
+.gradientGallery {
+  background-image: linear-gradient(
+    to bottom,
+    #757575,
+    #837e83,
+    #95868c,
+    #a88f8f,
+    #b69a8e,
+    #bba291,
+    #bfab95,
+    #c2b49a,
+    #c6b9a2,
+    #cabeab,
+    #cdc4b3,
+    #d1c9bc
+  );
+}
+
+.gradientToDoList {
+  background-image: linear-gradient(
+    to right bottom,
+    #ce9584,
+    #d49b8a,
+    #daa08f,
+    #e1a695,
+    #e7ac9b,
+    #eeb3aa,
+    #f4bbb9,
+    #f8c4c8,
+    #f8d3df,
+    #f6e2f0,
+    #f7f1fa,
+    #ffffff
+  );
+}
+
+.gradienTicTacToe {
+  background-image: linear-gradient(
+    to right bottom,
+    #004b7d,
+    #006798,
+    #0084b1,
+    #00a2c7,
+    #2ac0db,
+    #2dc5e0,
+    #2fc9e4,
+    #32cee9,
+    #11bae1,
+    #00a6d6,
+    #0491ca,
+    #1e7dbb
+  );
+}
+
+.gradientMemory {
+  background-image: linear-gradient(
+    to right bottom,
+    #5c257a,
+    #70378e,
+    #844aa2,
+    #985db6,
+    #ad70cb,
+    #b073ce,
+    #b376d1,
+    #b679d4,
+    #a86cc6,
+    #9a5fb8,
+    #8d52aa,
+    #7f469d
+  );
+}
+
+.gradientSnake {
+  background-image: linear-gradient(
+    to right bottom,
+    #007a69,
+    #148a74,
+    #259b7f,
+    #35ac89,
+    #45bd93,
+    #46c096,
+    #47c499,
+    #48c79c,
+    #3abd99,
+    #2bb496,
+    #1aaa92,
+    #00a18e
+  );
+}
+.page_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.page_header_title {
+  font-size: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-White);
+}
+
+.page_header_content {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  max-width: 84rem;
+  text-align: center;
+  color: var(--color-White);
+}
+.page_header_buttons {
+  display: inline-flex;
+  column-gap: 2rem;
+}
+
+.page_icons-menu {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: 3px 3px 15px #00000029;
+}
+
+.bgColor {
+  background-color: var(--color-Mercury);
+}
+
+.page_icons-menu_item {
+  height: 10rem;
+  padding: 2rem;
+}
+
+.page_content {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  /* box-shadow: 3px 3px 15px #00000029;*/
+}

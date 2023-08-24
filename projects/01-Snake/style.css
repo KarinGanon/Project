@@ -1,0 +1,106 @@
+:root {
+  --color-Pine-Green: #007a69;
+  --color-Persian-Green: #00a18e;
+  --color-Robins-Egg-Blue: #00c9b5;
+  --color-Burnham: #003227;
+  --color-White: #ffffff;
+  --color-Mercury: #e6e6e6;
+  --color-Silver: #c5c5c5;
+  --color-Mine-Shaft: #212121;
+  --color-Boulder: #757575;
+}
+
+.page {
+  min-height: 35rem;
+  min-width: 35rem;
+}
+
+.pageColor {
+  background-color: var(--color-Pine-Green);
+}
+
+.boxColor {
+  background: var(--color-Persian-Green);
+}
+
+.container-fluid {
+  height: 50rem;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.titleColor {
+  color: var(--color-White);
+}
+
+.game-details {
+  color: var(--color-White);
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 2rem 2.7rem;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.play-board {
+  min-width: 33rem;
+  min-height: 33rem;
+  display: grid;
+  grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+  border-top: 1px solid;
+  border-color: var(--color-White);
+}
+
+.play-board .food {
+  background-image: url("./assets/apple.svg");
+  background-repeat: no-repeat;
+  /* background: var(--first-color); */
+}
+
+.play-board .head {
+  background: var(--color-Burnham);
+  border-radius: 0.02rem;
+}
+
+.controls {
+  display: none;
+  justify-content: space-between;
+}
+.controls i {
+  padding: 2.5rem 0;
+  text-align: center;
+  font-size: 1.3rem;
+  width: calc(100% / 4);
+  cursor: pointer;
+  border-top: solid var(--color-White);
+  border-top: 1px solid;
+}
+
+.borderR {
+  border-right: 1px solid var(--color-White);
+}
+
+.borderL {
+  border-left: 1px solid var(--color-White);
+}
+@media screen and (max-width: 800px) {
+  .wrapper {
+    width: 90vmin;
+    height: 115vmin;
+  }
+  .game-details {
+    font-size: 1rem;
+    padding: 1.5rem 2.7rem;
+  }
+  .controls {
+    display: flex;
+  }
+  .controls i {
+    padding: 1.5rem 0;
+    font-size: 1rem;
+    color: var(--color-White);
+  }
+}

@@ -1,0 +1,78 @@
+:root {
+  --color-Wax-Flower: #ffc2b0;
+  --color-My-Pink: #ce9584;
+  --color-Leather: #9f6a5a;
+  --color-Mandys-Pink: #f0b4a3;
+
+  --color-Mercury: #e6e6e6;
+  --color-Silver: #c5c5c5;
+  --color-Mine-Shaft: #212121;
+  --color-Boulder: #757575;
+  --color-White: #ffffff;
+}
+.pageColor {
+  background-color: var(--color-My-Pink);
+}
+.boxColor {
+  background-color: var(--color-Mandys-Pink);
+}
+.titleColor {
+  color: var(--color-White);
+}
+
+.btn_add {
+  background-color: var(--color-My-Pink);
+  color: var(--color-White);
+  border: none;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+  font-size: 1.7rem;
+  padding: 1.2rem 0.8rem 1.2rem 5rem;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  height: 2.8rem;
+  width: 2.8rem;
+  border-radius: 50%;
+  background-image: url(./assets/icons8-unchecked-100.png);
+  background-size: cover;
+  background-position: center;
+  top: 1.2rem;
+  left: 0.8rem;
+}
+
+ul li.checked {
+  color: var(--color-Mine-Shaft);
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  background-image: url(./assets/icons8-checked-100.png);
+}
+
+ul li span {
+  position: absolute;
+  right: 0.8rem;
+  height: 2.8rem;
+  width: 2.8rem;
+  font-size: 2.2rem;
+  color: var(--color-Mine-Shaft);
+  line-height: 2.8rem;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+
+ul li span:hover {
+  background-color: var(--color-My-Pink);
+}

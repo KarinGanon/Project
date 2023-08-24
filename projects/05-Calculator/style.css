@@ -1,0 +1,72 @@
+:root {
+  --color-Celery: #a5c95d;
+  --color-Jonquil: #dbff90;
+  --color-Wasabi: #71952c;
+  --color-Mercury: #e6e6e6;
+  --color-Silver: #c5c5c5;
+
+  --color-Mine-Shaft: #212121;
+  --color-Boulder: #757575;
+  --color-White: #ffffff;
+}
+
+.pageColor {
+  background-color: var(--color-Boulder);
+}
+
+.boxColor {
+  background-color: var(--color-Silver);
+}
+
+.titleColor {
+  color: var(--color-White);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.container_board {
+  max-width: 30rem;
+  width: 100%;
+  border-radius: 1.2rem;
+  padding: 1rem 2rem 2rem;
+  background-color: var(--color-White);
+}
+
+.display {
+  height: 5rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  pointer-events: none;
+}
+
+.buttons {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons button {
+  padding: 1rem;
+  border-radius: 0.6rem;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: var(--color-Mercury);
+}
+
+.buttons button:active {
+  transform: scale(0.99);
+}
+
+.operator {
+  color: var(--color-Celery);
+}

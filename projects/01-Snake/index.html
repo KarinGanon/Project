@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./mainStyle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Snake-Game</title>
+  </head>
+  <body>
+    <main class="app pageColor">
+      <section class="page boxColor">
+        <h2 class="container_title titleColor">Snake Game</h2>
+        <div class="game-details">
+          <span class="score">Score: 0</span>
+          <span class="high-score">HighScore:</span>
+        </div>
+        <div class="play-board"></div>
+        <div class="controls">
+          <i
+            data-key="ArrowLeft"
+            class="borderR fa-solid fa-arrow-left-long"
+          ></i>
+          <i data-key="ArrowUp" class="borderR fa-solid fa-arrow-up-long"></i>
+          <i
+            data-key="ArrowRight"
+            class="borderR fa-solid fa-arrow-right-long"
+          ></i>
+          <i
+            data-key="ArrowDown"
+            class="borderL fa-solid fa-arrow-down-long"
+          ></i>
+        </div>
+      </section>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
